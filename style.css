@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content-container {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: auto;
+  height: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 30px;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 170px;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  gap: 10px;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+.country-codes {
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 110px;
+  font-size: 14px;
+}
+.country-codes:focus {
+  outline: 2px solid #94c6c4;
+}
+.phone-number {
+  border-radius: 8px;
+  padding: 10px 5px 10px 10px;
+  outline: none;
+  width: 100%;
+}
+.phone-number:focus {
+  outline: 2px solid #94c6c4;
+}
+.login-buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.login-whatsapp {
+  border: none;
+  border-radius: 14px;
+  padding: 5px 0;
+  width: 148px;
+  color: rgb(0, 114, 65);
+  font-weight: bold;
+  background-color: rgb(207, 255, 249);
+}
+.login-sms {
+  border-radius: 14px;
+  padding: 5px 0;
+  width: 148px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 118, 81);
+  border: none;
+}
+h1 {
+  width: 200px;
+  text-align: center;
+}
+h5 {
+  color: rgb(43, 43, 43);
+}
+input[type="tel"]::placeholder {
+  font-size: 14px;
+}
+.auxiliary-text {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+  justify-content: center;
+}
+p {
+  color: rgb(43, 43, 43);
+  font-size: 10px;
+}
+hr {
+  width: 90px;
+}
+h6 {
+  font-size: 10px;
+  color: rgb(43, 43, 43);
+  margin-top: 15px;
+}
+.social-media {
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  padding: 5px 0;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  gap: 10px;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+a {
+  color: rgb(43, 43, 43);
+}
+.sign-up-button {
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(0, 118, 81);
+  border-radius: 28px;
+  padding: 10px 30px;
+  border: none;
+  font-weight: bold;
+}
+.sign-up-button:hover {
+  background-color: rgb(0, 60, 41);
+  cursor: pointer;
+}
